@@ -1,6 +1,6 @@
 Feature: Etsy search feature
 
-  @wip
+
   Scenario: Etsy default title verification
     Given User is on the Etsy landing page
     Then User should see Etsy title as expected

@@ -32,7 +32,7 @@ public class Etsy_StepDefinitions {
 
     @When("User types Wooden Spoon in the search box")
     public void user_types_wooden_spoon_in_the_search_box() {
-        etsySearchPage.searchBar.sendKeys("Wooden Spoon");
+        etsySearchPage.searchBar.sendKeys("Wooden spoon");
 
     }
     @When("User clicks to search button")
@@ -46,7 +46,7 @@ public class Etsy_StepDefinitions {
         String expectedTitle = "Wooden spoon | Etsy";
         String actualTitle = Driver.getDriver().getTitle();
 
-        Assert.assertEquals("title is not as expected",actualTitle, expectedTitle);
+        Assert.assertEquals("title is not as expected",expectedTitle, actualTitle);
 
     }
 
