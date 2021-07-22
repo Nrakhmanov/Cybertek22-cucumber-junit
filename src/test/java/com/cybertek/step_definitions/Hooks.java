@@ -1,5 +1,6 @@
 package com.cybertek.step_definitions;
 
+import com.cybertek.utilities.BrowserUtils;
 import com.cybertek.utilities.Driver;
 import io.cucumber.java.*;
 import org.openqa.selenium.OutputType;
@@ -34,7 +35,8 @@ public class Hooks {
 
 
         System.out.println("--Teardown steps are being applied...");
-        // Driver.closeDriver();
+        BrowserUtils.sleep(5);
+        Driver.closeDriver();
 
 
     }
