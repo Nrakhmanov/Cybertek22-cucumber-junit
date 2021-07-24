@@ -35,7 +35,7 @@ public class Hooks {
 
 
         System.out.println("--Teardown steps are being applied...");
-        BrowserUtils.sleep(5);
+        BrowserUtils.sleep(1);
         Driver.closeDriver();
 
 

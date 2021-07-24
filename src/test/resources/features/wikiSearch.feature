@@ -34,7 +34,6 @@ Feature: Wikipedia search functionality
       | Steve Jobs      | Steve Jobs         | Steve Jobs      |
       | Albert Einstein | Albert Einstein    | Albert Einstein |
       | Nikola Tesla    | Nikola Tesla       | Nikola Tesla    |
-      | Conor McGregor  | Conor McGregor     | Conor McGregor  |
       | Chuck Norris    | Chuck Norris       | Chuck Norris    |
       | Marie Curie     | Marie Curie        | Marie Curie     |
       | Natalie Dormer  | Natalie Dormer     | Natalie Dormer  |

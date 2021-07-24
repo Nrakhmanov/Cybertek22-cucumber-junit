@@ -10,3 +10,9 @@ Feature: Google search functionality
     Given User is on Google homepage
     When User searches for apple
     Then User should see apple in the title
+
+    @Google
+  Scenario: User search title verification
+    Given User is on Google homepage
+    When User searches for "wooden spoon"
+    Then User should see "wooden spoon" in the title
